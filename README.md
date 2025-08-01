@@ -5,11 +5,12 @@ This project provisions two AWS EC2 instances and installs Jenkins and Docker us
 ---
 
 ## 📁 **Repository Structure**
+project-root/
 ├── README.md
 ├── ansible
-│ ├── docker.yml
-│ ├── inventory.ini
-│ └── jenkins.yml
+│   ├── docker.yml
+│   ├── inventory.ini
+│   └── jenkins.yml
 └── terraform
     ├── instances.tf
     ├── main.tf
@@ -19,6 +20,7 @@ This project provisions two AWS EC2 instances and installs Jenkins and Docker us
     ├── terraform.tfstate.backup
     ├── terraform.tfvars
     └── variables.tf
+
 
 
 ---
